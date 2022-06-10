@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-device-width: 480px)"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>PAKENHAM MUSIC</h1>
+        <div class="container">
+            <form action="" class="search_bar">
+                <button type="submit"><img src="Images/Search icon.png"></button>
+                <input type="text" placeholder="Search Products" name="q">
+                
+            </form>
+        </div>
+        <h2><a href="cart.html"><img src="Images/CartIcon.png" style="width:30px;height:20px;padding-right:10px;vertical-align: middle;">My Cart</a></h2>
+        <div class="mobile-version">
+            <img src="Images/Group 74.png">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <form action="" class="search">
+                    <button type="submit"><img src="Images/Search icon.png"></button>
+                    <input type="text" placeholder="Search Products" name="q">
+                </form>
+                <a href="index.html">HOME</a>
+                <a href="product-list.html">GUITARS</a>
+                <a href="#">KEYS</a>
+                <a href="#">DRUMS</a>
+                <a href="#">ORCHESTRAL</a>
+              </div>
+              
+              <span style="font-size:30px;cursor:pointer;color:#FEF301;" onclick="openNav()">&#9776;</span>  
+        </div>
+    </header>
+    <nav>
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Guitars</a></li>
+                <li><a href="#">Keys</a></li>
+                <li><a href="#">Drums</a></li>
+                <li><a href="#">Orchestral</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <section class="pg" id="pg">
+        <h1>Your Cart</h1>
+        <div class="wrapper">
+            <div class="small-container">
+                <table>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="class-info">
+                                <img src="Images/guitar10.png">
+                                <h1>Ibanez GIO Series Electric Guitar</h1>
+                            </div>
+                        </td>
+                        <td><input type="number" value="1"></td>
+                        <td>$399.00</td>
+                        
+                    </tr>
+                    <tr>
+                        <td><img src="Images/Remove.png"></td>>
+                    </tr>
+
+                </table>
+
+                <div class="total-price">
+                    <table>
+                        <tr>
+                            <td><h1>Subtotal</h1></td>
+                            <td><h1>$399.00</h1></td>
+                        </tr>
+                        <tr>
+                                <td>Shipping calculated at checkout</td>
+                                <td>GST included</td>
+
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="buttons">
+                    <button class="continue" href="index.html">Continue Shopping</button>
+                    <a class="checkout" href="shipping-info.html">Checkout</a>
+                </div>
+            </div>
+        </div>    
+        <div class="mobile-wrapper">
+            <div class="small-container">
+                <table>
+                    <tr>
+                        <td>
+                            <div class="class-info">
+                                <img src="Images/guitar10.png" style="height:90px;width:70px;">
+                                <h1>Ibanez GIO Series Electric Guitar</h1>
+                            </div>
+                        </td>
+                        <td><input type="number" value="1"></td>
+                        <td>$399.00</td>
+                        
+                    </tr>
+                    <tr>
+                        <td><img src="Images/Remove.png" style="height:35px;width:35px;"></td>>
+                    </tr>
+
+                </table>
+
+                <div class="total-price">
+                    <table>
+                        <tr>
+                            <td><h1>Subtotal</h1></td>
+                            <td><h1>$399.00</h1></td>
+                        </tr>
+                        <tr>
+                                <td><h2>Shipping calculated at checkout</h2></td>
+                                <td><h2>GST included</h2></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="buttons">
+                    <button class="continue">Continue Shopping</button>
+                    <a class="checkout" href="shipping-info.html">Checkout</a>
+                </div>
+                
+
+            </div>
+        </div>
+
+
+    </section>
+    
+    <footer>
+        <h1>Back to top</h1>
+        <h2> @2022, Pakenham Music</h2>
+        <h2>Powered by Shopify</h2>
+        <img src="Images/235-2355939_planetgoku-offers-payment-options-through-paypal-apple-mastercard.png">
+    </footer>
+<script src="script.js"></script>
+</body>
+
+
+</html>

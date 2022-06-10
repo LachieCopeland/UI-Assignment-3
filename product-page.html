@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-device-width: 480px)"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>PAKENHAM MUSIC</h1>
+        <div class="container">
+            <form action="" class="search_bar">
+                <button type="submit"><img src="Images/Search icon.png"></button>
+                <input type="text" placeholder="Search Products" name="q">
+                
+            </form>
+        </div>
+        <h2><a href="cart.html"><img src="Images/CartIcon.png" style="width:30px;height:20px;padding-right:10px;vertical-align: middle;">My Cart</a></h2>
+        <div class="mobile-version">
+            <img src="Images/Group 74.png">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <form action="" class="search">
+                    <button type="submit"><img src="Images/Search icon.png"></button>
+                    <input type="text" placeholder="Search Products" name="q">
+                </form>
+                <a href="index.html">HOME</a>
+                <a href="product-list.html">GUITARS</a>
+                <a href="#">KEYS</a>
+                <a href="#">DRUMS</a>
+                <a href="#">ORCHESTRAL</a>
+              </div>
+              
+              <span style="font-size:30px;cursor:pointer;color:#FEF301;" onclick="openNav()">&#9776;</span>  
+        </div>
+    </header>
+    <nav>
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Guitars</a></li>
+                <li><a href="#">Keys</a></li>
+                <li><a href="#">Drums</a></li>
+                <li><a href="#">Orchestral</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="directions">
+        <a href="index.html"><h2>Home</h2></a>
+        <img src="Images/arrow2.png">
+        <a href="product-list.html"><h2>Electric Guitars</h2></a>
+        <img src="Images/arrow2.png">
+    </div>
+    <section class="page" id="page">
+        <div class="wrapper">
+            <div class="left">
+                <h1>Ibanez GIO Series</h1>
+                <h1>Electric Guitar</h1>
+                <h2>On Sale</h2>
+                <div class="tag">
+                    <h2>$449.00</h2>
+                    <h1>$399.00</h1>
+                </div>
+            <button>Add to Cart</button>
+            </div>
+            <img src="Images/guitar.png" style="height: 721px; width: 250px">
+            
+        </div>
+        <div class="info">
+            <img src="Images/Ibanez.png">
+            <p>A guitar doesn't have to cost a bundle to sound good. The GIO series was developed for players who want Ibanez quality in a more affordable package. Not only do they look and play better than everything else in their price range, but their rigorous inspection, set-up and warranty is the same as Ibanez's more expensive models. The Ibanez GRX20EXB BKN Electric Guitar - Black Night features include its Maple Neck with Treated New Zealand Pine Fretboard, Infinity R (H) Neck and Bridge Pickups and White Dot Inlay.</p>
+                <ul>
+                    <li>6 String Electric Guitar</li>
+                    <li>Maple Neck with Treated New Zealand Pine Fretboard</li>
+                    <li>Infinity R (H) Neck and Bridge Pickups</li>
+                    <li>Black Hardware</li>
+                </ul>
+        </div>    
+    </section>
+    <section class="mobile-page" id="mobile-page">
+        <div class="wrapper">
+            <div class="left">
+                <h2>ON SALE</h2>
+                <h1>Ibanez GIO Series</h1>
+                <h1>Electric Guitar</h1>
+                <img src="Images/guitar.png" style="height:270px;">
+                <div class="tag">
+                    <h2>$449.00</h2>
+                    <h1>$399.00</h1>
+                </div>
+            <button>Add to Cart</button>
+            </div>
+            
+        </div>
+        <div class="info">
+            <h1>IBANEZ RX20EXB BKN EL. GUITAR</h1>
+            <p>A guitar doesn't have to cost a bundle to sound good. The GIO series was developed for players who want Ibanez quality in a more affordable package. Not only do they look and play better than everything else in their price range, but their rigorous inspection, set-up and warranty is the same as Ibanez's more expensive models. The Ibanez GRX20EXB BKN Electric Guitar - Black Night features include its Maple Neck with Treated New Zealand Pine Fretboard, Infinity R (H) Neck and Bridge Pickups and White Dot Inlay.</p>
+                <ul>
+                    <li>6 String Electric Guitar</li>
+                    <li>Maple Neck with Treated New Zealand Pine Fretboard</li>
+                    <li>Infinity R (H) Neck and Bridge Pickups</li>
+                    <li>Black Hardware</li>
+                </ul>
+            <img src="Images/Ibanez.png" style="width:330px;height:75px;">
+        </div>    
+
+
+    </section>
+    
+    <footer>
+        <h1>Back to top</h1>
+        <h2> @2022, Pakenham Music</h2>
+        <h2>Powered by Shopify</h2>
+        <img src="Images/235-2355939_planetgoku-offers-payment-options-through-paypal-apple-mastercard.png">
+    </footer>
+
+<script src="script.js"></script>
+</body>
+
+
+</html>
